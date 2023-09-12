@@ -1,5 +1,5 @@
 o.display.series=Samsung Galaxy Tab A 8.0
-ro.product.board=QC_Reference_Phone
+ro.product.board=SRPSB22C003
 ro.board.platform=msm8937
 ro.hardware=qcom
 ro.chipname=SDM429

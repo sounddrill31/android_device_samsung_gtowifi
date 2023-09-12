@@ -150,3 +150,7 @@ TW_HAS_DOWNLOAD_MODE := true
 TW_NO_LEGACY_PROPS := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_DEVICE_VERSION := 0
+
+# A stopgap fix for build/make/core/board_config.mk:246: error: Building a 32-bit-app-only product on a 64-bit device. If this is intentional, set TARGET_SUPPORTS_64_BIT_APPS := false.
+
+TARGET_SUPPORTS_64_BIT_APPS := false

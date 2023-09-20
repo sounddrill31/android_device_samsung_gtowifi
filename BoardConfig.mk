@@ -154,3 +154,7 @@ TW_DEVICE_VERSION := 0
 # A stopgap fix for build/make/core/board_config.mk:246: error: Building a 32-bit-app-only product on a 64-bit device. If this is intentional, set TARGET_SUPPORTS_64_BIT_APPS := false.
 
 TARGET_SUPPORTS_64_BIT_APPS := false
+
+# Enable FBE support
+
+BOARD_USES_QCOM_FBE_DECRYPTION := true
